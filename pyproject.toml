@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "svgtoolkit"
+version = "0.1.0"
+description = "A program for working with mass SVG files."
+authors = ["Satakun Utama <49134472+lines-of-codes@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sv-ttk = "^2.5.4"
+svglib = "^1.5.1"
+reportlab = {extras = ["pycairo"], version = "^4.0.4"}
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
